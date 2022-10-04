@@ -1,6 +1,8 @@
 //console.log("Console: Alo Mundo...");
 //alert("Alerta: Alo Mundo...");
 let tabuada = 4;
+
+
 function meChame(){
     document.write("tabuada do " + tabuada + "<br>");
    document. write(tabuada + " x 1 =" +(tabuada*1) +"<br>"); 
@@ -13,4 +15,19 @@ function meChame(){
    document. write(tabuada + " x 8 =" +(tabuada*8) +"<br>"); 
    document. write(tabuada + " x 9 =" +(tabuada*9) +"<br>"); 
    document. write(tabuada + " x 10 =" +(tabuada*10) +"<br>");  
+}
+
+
+function minhaTabuada(){
+   for(var i=1; i <= 10;i++){
+    for(var j = 1; j <=10; j++){
+        document.write(i + " x " + j + "=" +(i*j) +"<br>"); 
+    }
+     document.white("<br><br>");
+  } 
+}
+function quadrado(){
+for(var i = 2; i < 21; i++){
+    document.white("O quadrado de " + 1 + "é" + (i*i) + "<br>")
+}
 }
