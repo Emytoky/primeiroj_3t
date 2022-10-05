@@ -23,11 +23,18 @@ function minhaTabuada(){
     for(var j = 1; j <=10; j++){
         document.write(i + " x " + j + "=" +(i*j) +"<br>"); 
     }
-     document.white("<br><br>");
+     document.write("<br><br>");
   } 
 }
 function quadrado(){
 for(var i = 2; i < 21; i++){
-    document.white("O quadrado de " + 1 + "é" + (i*i) + "<br>")
+    document.write("O quadrado de " + 1 + "é" + (i*i) + "<br>")
 }
+}
+
+function total(){
+   let val = document.getElementById("valor").value;
+   let ju = document.getElementById("juros").value;
+   let resultado = (val * (1+ (ju/100)));
+   document.write("O resultado é " + resultado);
 }
