@@ -45,8 +45,8 @@ function total(){
    }
    if(!Number(ju)){
     alert("O valor do  juros deve ser um número.")
-    document.getElementById("valor").value ="";
-      document.getElementById("valor").focus();
+    document.getElementById("juros").value ="";
+      document.getElementById("juros").focus();
     return
 
  }
