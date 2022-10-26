@@ -66,7 +66,9 @@ let r= val;
 for(let m = 1; m <= t; m++ ){
  r = (val * (1+(ju/100)));
  val = r;
- document.write("Mes " + m + "valor" + moeda(r) + "<br>");
+// document.write("Mes " + m + "valor" + moeda(r) + "<br>");
 }
-   document.write("O total é " + moeda(r));
+document.getElementById("total").innerHTML = "Total" +moeda(r);
+  // document.write("O total é " + moeda(r));
 }
+
