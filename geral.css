@@ -1,23 +1,30 @@
-.calculadora{
-    background: rgb(93, 93, 235);
+.calculadora {
+    background: rgb(115, 165, 146);
     width: 200px;
     padding: 20px;
+    
 }
-#btnCalc{
-    background: rgb(163, 147, 255);
-    color: rgb(0, 0, 0);
+.calcF{
+    display: none;
+}
+#calcFin:checked + .calculadora .calcF {
+    display: block;
+}
+#btnCalc {
+    background: rgb(171, 2, 250);
+    color:white;
     margin: 10px;
     padding: 5px;
-
 }
 #btnCalc:hover{
-    background: rgb(42, 97, 179);
-    color: rgb(0, 0, 0);
+    background: rgb(201, 140, 230);
+    color:rgb(0, 0, 0);
     cursor: pointer;
 }
-#total{
+#total {
     padding: 10px;
     margin: 5px;
     background: black;
-    color: cyan;
+    color:yellow;
 }
+
